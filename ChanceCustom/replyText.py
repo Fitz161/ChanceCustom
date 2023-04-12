@@ -754,7 +754,7 @@ def replaceFunTemp():
             ChanceCustom.replyBase.getCharRegTotal(resDict, '替换次数', '-1', groupDict, valDict)
             ChanceCustom.replyBase.getCharRegTotal(resDict, '并列替换', '', groupDict, valDict)
             text = resDict['被替换内容']
-            count = str2int(resDict['替换次数'])
+            total_count = str2int(resDict['替换次数'])
             pattern = resDict['被替换文本']
             repl = resDict['替换文本']
             patterns = pattern.split('||')
